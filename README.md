@@ -1,2 +1,287 @@
-# html_and_css_template_1
-html and css design 1
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Leon</title>
+       <!-- main template css file -->
+       <link rel="stylesheet" href="template_1.css">
+       <!-- render all elements normally -->
+       <link rel="stylesheet" href="normalize.css">
+       <!-- render all elmenets normally -->
+       <link rel="stylesheet" href="Compressed/css/all.min.css">
+       <!-- google fonts -->
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link 
+       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" 
+       rel="stylesheet">
+        <!-- font awesome -->
+       <!-- <link 
+       rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+       <link 
+       rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+       crossorigin="anonymous" 
+       referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <!-- start header -->
+        <div class="header">
+            <div class="container">
+                <!-- <i class="fa-solid fa-house"></i> -->
+                <a class="a2" href="template_1.html"><i class="fa-solid fa-house fa-2x" style="color: black;"></i></a>
+                <div class="links">
+                    <span class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <ul>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#protfolio">protfolio</a></li>
+                        <li><a href="#about"> about</a></li>
+                        <li><a href="#contact"> contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+
+        <!-- start landing section -->
+        <div class="landing">
+            <div class="intro_text">
+                <h1>hello there</h1>
+                <p>we are leon . super creative & minimal agency web template</p>
+            </div>
+        </div>
+        <!-- end landing section -->
+
+        <!-- start features -->
+        <div class="features">
+            <div class="container">
+                <div class="feat">
+                    <i class="fa-solid fa-wand-magic-sparkles fa-2x"></i>
+                    <h3>tell us your idea</h3>
+                    <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Quos, fuga. 
+                    </p> 
+                </div>
+                <div class="feat">
+                    <i class="fa-regular fa-gem fa-2x"></i>
+                    <h3>we will do the work</h3>
+                    <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Quos, fuga. 
+                    </p> 
+                </div>
+                <div class="feat">
+                    <i class="fa-solid fa-earth-asia fa-2x"></i>
+                    <h3>your product is worldwide</h3>
+                    <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Quos, fuga. 
+                    </p> 
+                </div>
+            </div>
+        </div>
+        <!-- end features -->
+
+        <!-- start services -->
+        <div class="services" id="services">
+            <div class="container">
+                <h2 class="special-heading">services</h2>
+                <p>don't be busy, be productive</p>
+                <div class="services-content">
+                    <div class="col">
+                        <!-- start services -->
+                        <div class="srv">
+                            <i class="fas fa-palette fa-2x"></i>
+                            <div class="text">
+                                <h3>Graphic Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Obcaecati iure voluptas eius, consequuntur, 
+                                </p>
+                            </div>                          
+                        </div>
+                        <div class="srv">
+                            <i class="fab fa-sketch fa-2x"></i>
+                            <div class="text">
+                                <h3>UI & UX</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Obcaecati iure voluptas eius, consequuntur, 
+                                </p>
+                            </div>                          
+                        </div>
+                        <!-- end services -->
+                    </div>
+                    <div class="col">
+                        <!-- start services -->
+                        <div class="srv">
+                            <i class="fas fa-vector-square fa-2x"></i>
+                            <div class="text">
+                                <h3>Web Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Obcaecati iure voluptas eius, consequuntur, 
+                                </p>
+                            </div>                          
+                        </div>
+                        <div class="srv">
+                            <i class="fas fa-pencil-ruler fa-2x"></i>
+                            <div class="text">
+                                <h3>Web Developement</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Obcaecati iure voluptas eius, consequuntur, 
+                                </p>
+                            </div>                          
+                        </div>
+                        <!-- end services -->
+                    </div>
+                    <div class="col">
+                        <div class="image image-imag">
+                            <img src="image/wallpaper.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end services -->
+
+        <!-- start portfolio -->
+        <div class="protfolio" id="protfolio">
+            <div class="container">
+                <h2 class="special-heading">portfolio</h2>
+                <p>if you do it right, it will last forever.</p>
+                <div class="protfolio-content">
+                    <div class="card">
+                        <img src="image/protfolio 3.jpeg" alt="">
+                        <div class="info">
+                            <h3>project here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Asperiores beatae cumque dolorum, 
+                                accusantium corrupti provident!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="image/protfolio 2.jpeg" alt="">
+                        <div class="info">
+                            <h3>project here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Asperiores beatae cumque dolorum, 
+                                accusantium corrupti provident!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="image/protfolio 1.jpeg" alt="">
+                        <div class="info">
+                            <h3>project here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Asperiores beatae cumque dolorum, 
+                                accusantium corrupti provident!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end portfolio -->
+        
+        <!-- start about -->
+        <div class="about" id="about">
+            <div class="container">
+                <h2 class="special-heading">about</h2>
+                <p>less is more work</p>
+                <div class="about-content"><div class="image">
+                    <img src="image/plant.jpeg" alt="" >
+                </div>
+                    <div class="text">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ipsa, accusantium dolorem! Doloremque minima quos rerum corrupti, 
+                            suscipit eos odit odio asperiores veniam vitae necessitatibus at ab.
+                        </p>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Corrupti harum dolorem reiciendis, eveniet omnis libero nam esse incidunt!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end about -->
+        
+        <!-- start contact -->
+        <div class="contact" id="contact">
+            <div class="container">
+                <h2 class="special-heading">contact</h2>
+                <p>we are born to create</p>
+                <div class="info">
+                    <p class="label">feel free to drop us line at: </p>
+                    <a target="_blank" href="mailto:adadayasser8@gmail.com?subject=contact" class="link">
+                        adadayasser8@gmail.com
+                    </a>
+                    <div class="social">
+                        Find US On Social Networks
+                        <a target="_blank" 
+                            href="https://www.facebook.com/profile.php?id=100026322121523">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a target="_blank" 
+                            href="https://api.whatsapp.com/send/?phone=201098870689&text&type=phone_number&app_absent=0">
+                            <i class="fab fa-whatsapp"></i>
+                        </a> 
+                        <a target="_blank" href="https://t.me/Ahmedy13">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end contact -->
+
+        <!-- start footer -->
+        <div class="footer">
+            &copy; 2023 <span> Leon</span> All Rigth Reserved</div>
+        <!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
